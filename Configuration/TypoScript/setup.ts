@@ -68,12 +68,6 @@ plugin.tx_fpnewsletter {
   }
 }
 
-[siteLanguage("languageId") == "1"]
-plugin.tx_fpnewsletter_pi1.settings.company = Your company
-plugin.tx_fpnewsletter_pi1.settings.email.senderMail = info@example.org
-plugin.tx_fpnewsletter_pi1.settings.email.senderName = Sender-name
-[END]
-
 module.tx_dashboard.view {
 	layoutRootPaths {
 		43 = EXT:fp_newsletter/Resources/Private/Layouts/
